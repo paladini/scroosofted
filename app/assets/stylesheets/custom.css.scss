@@ -15,6 +15,41 @@
 
 /* Just add a blank space */
 .blank-space{
-	height: 60px;
+	height: 0px;
+}
+
+#redOnes{
+	padding-top: 70px;
+	position:relative;
+	width: 100%;
+	height: 450px;
+	background-color: #b3d4fc;
+}
+
+#redOnes img{
+	padding-left: 30px;
+	padding-top: 50px;
+}
+
+.square{
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -khtml-border-radius: 20px;
+    border-radius: 20px;
+}
+
+#footer{
+	position:fixed;
+   left:0px;
+   bottom:0px;
+   height:30px;
+   width:100%;
+   background:#000;
+}
+
+#footer p{
+	padding-left: 20px;
+	padding-top: 5px;
+	color: #FFF;
 }
 
